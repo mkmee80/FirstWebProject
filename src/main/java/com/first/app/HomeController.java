@@ -65,7 +65,7 @@ public class HomeController {
 		return "app";
 	}
 	
-	@RequestMapping(value = "/adduser", method = RequestMethod.GET)
+	@RequestMapping(value = "/adduser", method = RequestMethod.POST)
 	public void adduser(@ModelAttribute User user) {
 		System.out.println("Adding user ::: in controller");
 		userDao.adduser(user);

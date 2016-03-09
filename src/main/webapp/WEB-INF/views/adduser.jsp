@@ -10,7 +10,7 @@
 	<center>
 		<h3>Add  user</h3>
 		
-		<form action="adduser" >
+		<form action="adduser" method="post">
 			id:<input type="text" name="id"><br>
 			username:<input type="text" name="username"><br>
 			password:<input type="text" name="password"><br>
